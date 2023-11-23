@@ -1,0 +1,14 @@
+<configuration>
+    <timestamp key="dayOfWeek" datePattern="E"/>
+
+    <appender name="DAILY-LOG" class="ch.qos.logback.core.FileAppender">
+        <file>./logs/inter-sdk-${dayOfWeek}.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="DAILY-LOG" />
+    </root>
+</configuration>
