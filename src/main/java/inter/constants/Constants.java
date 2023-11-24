@@ -16,7 +16,6 @@ public class Constants {
     public static final String URL_BANKING_PAGAMENTO_DARF = URL_BASE + "/banking/v2/pagamento/darf";
     public static final String URL_BANKING_PAGAMENTO_LOTE = URL_BASE + "/banking/v2/pagamento/lote";
     public static final String URL_BANKING_PIX_PAGAMENTO = URL_BASE + "/banking/v2/pix";
-    //public static final String URL_BANKING_TED = URL_BASE + "/banking/v2/ted";
     public static final String URL_BANKING_WEBHOOK = URL_BASE + "/banking/v2/webhooks";
 
     //Pix
@@ -45,7 +44,6 @@ public class Constants {
     public static final String ESCOPO_PAGAMENTOS_LOTE_WRITE = "pagamento-lote.write pagamento-boleto.write pagamento-darf.write";
     public static final String ESCOPO_PAGAMENTO_PIX_READ = "pagamento-pix.read";
     public static final String ESCOPO_PAGAMENTO_PIX_WRITE = "pagamento-pix.write";
-    //public static final String ESCOPO_TED_WRITE = "ted.write";
 
     public static final String ESCOPO_PIX_COBRANCA_READ = "cob.read";
     public static final String ESCOPO_PIX_COBRANCA_WRITE = "cob.write";

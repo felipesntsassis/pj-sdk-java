@@ -28,9 +28,7 @@ import inter.banking.model.PagamentoBoleto;
 import inter.banking.model.PagamentoDarf;
 import inter.banking.model.Pix;
 import inter.banking.model.RespostaIncluirPagamentoDarf;
-//import inter.banking.model.RespostaIncluirTed;
 import inter.banking.model.Saldo;
-//import inter.banking.model.Ted;
 import inter.banking.model.TransacaoEnriquecida;
 import inter.banking.pagamento.BuscarLotePagamentos;
 import inter.banking.pagamento.BuscarPagamentos;
@@ -59,7 +57,6 @@ public class BankingSdk {
     private IncluirPagamentosLote incluirPagamentosLote;
     private BuscarLotePagamentos buscarLotePagamentos;
     private IncluirPix incluirPix;
-//    private IncluirTed incluirTed;
     private CriarWebhook criarWebhook;
     private ObterWebhook obterWebhook;
     private ExcluirWebhook excluirWebhook;
@@ -277,20 +274,6 @@ public class BankingSdk {
         }
         return incluirPix.incluir(config, pix);
     }
-
-//    /**
-//     * Método para inclusão de um agendamento ou transferência imediata usando dados bancários.
-//     *
-//     * @param ted Dados do ted
-//     * @return objeto contendo mensagem e dados da aprovação
-//     * @see <a href="https://developers.bancointer.com.br/v4/reference/realizarpagamentoted-1">Incluir Ted</a>
-//     */
-//    public RespostaIncluirTed incluirTed(Ted ted) throws SdkException {
-//        if (incluirTed == null) {
-//            incluirTed = new IncluirTed();
-//        }
-//        return incluirTed.incluir(config, ted);
-//    }
 
     /**
      * Método destinado a criar um webhook para receber notificações de confirmação de envio de pix (callbacks).
