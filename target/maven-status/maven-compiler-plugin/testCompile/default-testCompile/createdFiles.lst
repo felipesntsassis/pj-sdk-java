@@ -1,0 +1,13 @@
+inter/banking/PixPagamentoTest.class
+inter/cobranca/BoletoTest.class
+inter/banking/PagamentoDarfTest.class
+inter/cobranca/WebhookCobrancaTestRemover.class
+inter/pix/PixTest.class
+inter/pix/WebhookPixTest.class
+inter/pix/CobrancaTest.class
+inter/banking/PagamentoTest.class
+inter/banking/PagamentosLoteTest.class
+inter/banking/ExtratoSaldoTest.class
+inter/TestUtils.class
+inter/banking/WebhookBankingTest.class
+inter/pix/LocationTest.class

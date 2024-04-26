@@ -1,0 +1,83 @@
+@options
+@packages
+-classpath
+'/home/desenv/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/desenv/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/desenv/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/desenv/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/desenv/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/home/desenv/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/home/desenv/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/home/desenv/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/home/desenv/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar:/home/desenv/.m2/repository/ch/qos/logback/logback-core/1.2.13/logback-core-1.2.13.jar:/home/desenv/.m2/repository/org/slf4j/slf4j-api/1.7.33/slf4j-api-1.7.33.jar:/home/desenv/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/home/desenv/Projetos/pj-sdk-java/src/main/java:/home/desenv/Projetos/pj-sdk-java/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/desenv/Projetos/pj-sdk-java/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'inter-sdk-java 1.0.3 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/desenv/Projetos/pj-sdk-java/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'inter-sdk-java 1.0.3 API'
+inter
+inter.banking
+inter.banking.extrato
+inter.banking.model
+inter.banking.model.enums
+inter.banking.pagamento
+inter.banking.pix
+inter.banking.saldo
+inter.banking.webhook
+inter.cobranca
+inter.cobranca.boletos
+inter.cobranca.model
+inter.cobranca.model.enums
+inter.cobranca.webhook
+inter.constants
+inter.exceptions
+inter.model
+inter.oauth
+inter.pix
+inter.pix.cob
+inter.pix.cobv
+inter.pix.location
+inter.pix.model
+inter.pix.model.enums
+inter.pix.pix
+inter.pix.webhook
+inter.utils
+/home/desenv/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar = 1601736460000
+/home/desenv/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar = 1709747281000
+/home/desenv/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1404583945000
+/home/desenv/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar = 1707407290000
+/home/desenv/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar = 1650248709000
+/home/desenv/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar = 1674955911000
+/home/desenv/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar = 1674949888000
+/home/desenv/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar = 1674953686000
+/home/desenv/.m2/repository/ch/qos/logback/logback-classic/1.2.13/logback-classic-1.2.13.jar = 1701441169000
+/home/desenv/.m2/repository/ch/qos/logback/logback-core/1.2.13/logback-core-1.2.13.jar = 1701441130000
+/home/desenv/.m2/repository/org/slf4j/slf4j-api/1.7.33/slf4j-api-1.7.33.jar = 1642084593000
+/home/desenv/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar = 1250093113000
+/home/desenv/Projetos/pj-sdk-java/src/main/java = 1711975051000
+/home/desenv/Projetos/pj-sdk-java/target/generated-sources/annotations = 1712348026000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/package-list = 1712348065000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/overview-frame.html = 1712348065000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/constant-values.html = 1712348065000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/serialized-form.html = 1712348065000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/overview-tree.html = 1712348066000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/index-all.html = 1712348066000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/deprecated-list.html = 1712348066000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/allclasses-frame.html = 1712348066000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/allclasses-noframe.html = 1712348066000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/index.html = 1712348066000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/overview-summary.html = 1712348066000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/help-doc.html = 1712348066000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/stylesheet.css = 1712348048000
+/home/desenv/Projetos/pj-sdk-java/target/apidocs/script.js = 1712348066000
